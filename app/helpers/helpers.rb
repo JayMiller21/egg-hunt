@@ -10,4 +10,8 @@ helpers do
     !current_user.nil?
   end
 
+  def is_page_owner?
+    @current_user == params[:id]
+  end
+
 end

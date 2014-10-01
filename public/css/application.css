@@ -56,6 +56,10 @@ input {
   margin-right: auto;
 }
 
+#user_introduction_edit_button {
+  display: none;
+}
+
 #board {
   width: 600px;
   height: 600px;

@@ -1,2 +1,24 @@
-  <h2><%= @user.name %>'s Profile</h2>
-  <%= erb :"/game/_scores" %>
+<h1><%= @user.name %>'s Profile</h1>
+
+<h3>Introduction</h3>
+<p id="user_introduction"><%= @user.introduction%></p>
+
+<% if is_page_owner? %>
+  <form id=user_introduction_edit_button action="/user/<%= @user.id %>/edit" method="post">
+    <input type="submit" value="edit">
+  </form>
+<% end %>
+
+<h3>Game History</h3>
+<table id="high_scores_all_players">
+  <tr>
+    <th>Date Played</th>
+    <th>Score</th>
+  </tr>
+<% @games.each do |game| %>
+<tr>
+  <td><%= game.played_at %></td>
+  <td><%= game.score %></td>
+</tr>
+<% end %>
+</table>
