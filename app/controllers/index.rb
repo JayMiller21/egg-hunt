@@ -1,4 +1,5 @@
 get '/' do
+  @games = Game.order(score: :desc)
   erb :index
 end
 

@@ -1,1 +1,17 @@
-<h2>Home Page</h2>
+<h1>Game</h1>
+
+<h3>High Scores</h3>
+<table id="high_scores_all_players">
+  <tr>
+    <th>Player</th>
+    <th>Score</th>
+    <th>Date Played</th>
+  </tr>
+<% @games.each do |game| %>
+<tr>
+  <td><%= game.player_name %></td>
+  <td><%= game.score %></td>
+  <td><%= game.played_at %></td>
+</tr>
+<% end %>
+</table>

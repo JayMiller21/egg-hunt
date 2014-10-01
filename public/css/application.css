@@ -50,3 +50,8 @@ input {
   border: 1px solid black;
   background-color: #eee;
 }
+
+#high_scores_all_players {
+  margin-left: auto;
+  margin-right: auto;
+}
