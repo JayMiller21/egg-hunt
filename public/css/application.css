@@ -55,3 +55,14 @@ input {
   margin-left: auto;
   margin-right: auto;
 }
+
+#board {
+  width: 600px;
+  height: 600px;
+  border: 1px solid gray;
+  background-color: #BDE2B5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
