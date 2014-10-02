@@ -72,12 +72,15 @@ input {
 }
 
 .egg {
-  background-image: url('http://www.lucaschristopherross.net/Graphics/GoldenEgg.gif'); /*'/public/img/GoldenEgg.gif'*/
-  width: 10px;
-  height: 10px;
+  background-image: url('../img/GoldenEgg.gif'); /*'http://www.lucaschristopherross.net/Graphics/GoldenEgg.gif'*/
+  background-size: cover;
+  width: 20px;
+  height: 26px;
 }
 
 #player {
-  width: 10px;
-  height: 10px;
+  background-image: url('../img/bunny.gif'); /*http://www.dolliehost.com/dolliecrave/graphics/cutebunnies/60.gif*/
+  background-size: cover;
+  width: 41px;
+  height: 33px;
 }
