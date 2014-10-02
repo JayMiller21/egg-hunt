@@ -70,3 +70,14 @@ input {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.egg {
+  background-image: url('http://www.lucaschristopherross.net/Graphics/GoldenEgg.gif'); /*'/public/img/GoldenEgg.gif'*/
+  width: 10px;
+  height: 10px;
+}
+
+#player {
+  width: 10px;
+  height: 10px;
+}
